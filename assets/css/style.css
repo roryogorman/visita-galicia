@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    font-family: "Roboto", san-serif;
+}
+
+.container-fluid {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*---------Navbar Styling---------*/
+.navbar {
+    position: relative;
+    min-height: 90px;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #009acd;
+    overflow: hidden;
+}
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+.navbar-brand {
+    float: left;
+    width: 10rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+.navbar-nav li {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    display: block;
+    float: right;
+    margin-right: .5rem;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/*---------Home Page Styling---------*/
+.intro-message-container {
+    height: 90vh;
+    background: url("../images/galicia_hero_image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+
+/*---------Footer Styling---------*/
+footer {
+    background-color: #009acd;
+    color: #ffffff;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer-contact-details {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: fit-content;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 0;
+}
+
+.contact-details {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 100%;
+    display: block;
+    position: relative;
+}
+
+ a {
+color: #ffffff;
+
+ }
+
+.footer-subscribe {
+    display: none;
+}
+
+
+.social-media {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.social-media li a i {
+    width: 40px;
+    height: 40px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    color: #4b3b47;
+    background: #e0d8de;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    background: rgb(114,117,152);
+}
