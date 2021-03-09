@@ -50,6 +50,8 @@ The website is designed to be accessed and viewed on all smart devices, laptops 
 
 ### Frameworks, Libraires & Programs Used
 
+Pictures from unsplash.com
+
 ***
 
 ## Testing
