@@ -20,20 +20,19 @@
         <!--Navbar coding taken from Bootstrap 4.5.3-->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="index.html">Visita Galicia!</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Visit Provinces</a>
+                        <a class="nav-link" href="#provinces">Visit Provinces</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul> 
             </div>
@@ -42,10 +41,11 @@
 
     <section>
     <div class="container-fluid intro-message-container">
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center welcome-message-container">
             <div class="col-md-5">
+            <h3 class="welcome-message-header"><strong>BOM DIA! BIENVENIDOS! WELCOME!</strong></h3>
             <p>Bom Dia! Welcome to our site!</p> 
-            <p>From sandy beaches to rugged mountains, from quiet rural life to partying in cities, Galicia has it all!</p>
+            <p>From sandy beaches to rugged mountains, from quiet rural life to bustling city nightlife, Galicia has it all!</p>
             <p>Browse through our pages to see all that the wonderful region to offer.</p>
             <p>For specific requests, please contact us on the form below.</p>
         </div>
@@ -53,26 +53,56 @@
     </div>
     </section>
     
-    <section>
+    <section id="provinces" class="province-section">
     <div class="container">
-        <div class="row justify-content-sm-center">
-            <div class="col-sm-2">
-                <p>Whether you wish to visit the windswept wildness of the Atlantic coast, walking in the footsteps of others on the Camino de Santiago, or wish to hang out in the bustling city of A Coruna, this province has it all for you!</p>
+        <div class="row no-gutters justify-content-sm-center">
+            <div class="col-sm2 province-section-title">
+            <h2><strong>Provinces</strong></h2>
             </div>
-            <div class="col-sm-2">
-                <p>Galicia's southwest province - click here to see more of spectacular beaches, rugged coastline and the fun city of Vigo!</p>
+        </div>
+        <div class="row no-gutters justify-content-center province-containers">
+            <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
+                <img src="./assets/images/coruna_city_2.jpeg" class="card-img-top" alt="Coruna">
+                <div class="card-body">
+                <h5 class="card-title">A Coruña</h5>
+                <!--<p class="card-text">Whether you wish to visit the windswept wildness of the Atlantic coast, walking in the footsteps of others on the Camino de Santiago, or wish to hang out in the bustling city of A Coruña, this province has it all for you!</p>-->
+                <a href="#" class="btn btn-primary">Go Coruna</a>
+                </div>
             </div>
-            <div class="col-sm-2">
-                <p>The historical city of Lugo, rolling rural landscapes making way to the rugged northern coast - Lugo will have everything you want!</p>
+            <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
+                <!--<img src="./assets/images/pontevedra_image2.jpg" class="card-img-top" alt="Pontevedra">-->
+                <div class="card-body">
+                <h5 class="card-title">Pontevedra</h5>
+                <!--<p class="card-text">Galicia's southwest province - click here to see more of spectacular beaches, rugged coastline and the fun city of Vigo!</p>-->
+                <a href="#" class="btn btn-primary">Visit Pontevedra</a>
+                </div>
             </div>
-            <div class="col-sm-2">
-                <p>Galicia's only landlocked province, but what it lacks in coastline, it makes up for in adventure! Come here to see life in rural Galicia!</p>
+        </div>
+        <div class="container">
+            <div class="row no-gutters justify-content-center province-containers">
+                <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
+                <!--<img src="./assets/images/lugo_image.jpeg" class="card-img-top" alt="Lugo">-->
+                <div class="card-body">
+                <h5 class="card-title">Lugo</h5>
+                <!--<p class="card-text">The historical city of Lugo, rolling rural landscapes making way to the rugged northern coast - Lugo will have everything you want!</p>-->
+                <a href="#" class="btn btn-primary">Hola Lugo!</a>
+                </div>
             </div>
+                <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
+                <!--<img src="./assets/images/Ourense_Image.jpg" class="card-img-top" alt="Ourense">-->
+                <div class="card-body">
+                <h5 class="card-title">Ourense</h5>
+                <!--<p class="card-text">Galicia's only landlocked province, but what it lacks in coastline, it makes up for in adventure! Come here to see life in rural Galicia!</p>-->
+                <a href="#" class="btn btn-primary">Hola Lugo!</a>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     </section>
 
-    <section class="container-fluid">
+    <section id="contact">
+        <div class="container contact-form-container">
         <div class="row bg-color-contact">
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">Is your appetite whetted?</h3>
@@ -89,9 +119,10 @@
                         </div>
                     </form>
                 </div>
-                
+            </div> 
             </div>
         </div>
+        
     </section>
     
     <footer class="container-fluid">     
