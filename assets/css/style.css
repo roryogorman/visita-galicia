@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Comfortaa:100,200,300,400,500,600,700');
 *{
     margin:0;
     padding:0;
@@ -25,12 +25,12 @@ body{
     overflow: hidden;
 }
 .navbar-light .navbar-brand {
-    color: #ffffff;
+    color: #f4f4f4;
 }
 .navbar-brand {
     float: left;
     width: 10rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-weight: bold;
     font-size: 200%;
 }
@@ -50,10 +50,11 @@ body{
 }
 
 
+
 /*---------Home Page Styling---------*/
 .intro-message-container {
-    height: 90vh;
-    background: url("../images/galicia_hero_image.jpg") no-repeat center center fixed;
+    height: 103vh;
+    background: url(../images/galicia_hero_image.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -66,6 +67,80 @@ body{
     margin-bottom: 0;
 }
 
+.welcome-message-header {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.welcome-message-container {
+    clear: left;
+    color: #f5f5f5;
+    background-color: rgba(205,205,205, .02);
+    border-radius: 3%;
+    text-align: center;
+    padding: 1rem;
+    width: 85%;
+    height: 90%;
+    font-size: 115%;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+.province-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 275vh;
+}
+
+.province-section-title {
+    margin-bottom: .75rem;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    color: #005ac1;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.province-containers {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.province-card {
+    /*width: 10rem;*/
+    height: 60vh;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+    opacity: 0.9;
+    border-radius: 3%;
+    text-align: bottom;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    color: #005ac1;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.card-text {
+    margin-bottom: .75rem;
+    text-align: center;
+    color: #005ac1;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 25%;
+}
+
+.contact-form-container {
+    margin: 2rem;
+    border: blue;
+}
 
 /*---------Footer Styling---------*/
 footer {
