@@ -45,41 +45,58 @@
     </header>
 
     <section>
-        <div class="container">
-        Introduction
+        <div class="container-fluid">
+        <h1 class="destination-page-header">A Coruña</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/a_coruna_map.jpeg" class="province_map_img" alt="Coruna">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">Whether you wish to visit the windswept wildness of the Atlantic coast, walking in the footsteps of others on the Camino de Santiago, or wish to hang out in the bustling city of A Coruña, this province has it all for you!</p>
+            </div>
+        </div>
         </div>
     </section>
 
     <section>
-        <div class="container">
+        <div class="container-fluid destination-page-info">
             <div class="row col-12">
                 <div class="col-sm-3">
-                    Where to Stay
+                   <i class="fas fa-bed"> Where to Stay</i>
                 </div>
                 <div class="col-sm-3">
-                    Where to Eat
+                    <i class="fas fa-utensils"> Where to Eat</i>
                 </div>
                 <div class="col-sm-3">
-                    Where to Drink
+                   <i class="fas fa-beer"> Where to Drink</i>
                 </div>
                 <div class="col-sm-3">
-                    What to See
+                   <i class="fas fa-tree"> What to See & Do</i>
                 </div>
             </div>
         </div>
     </section>
-        <div class="jumbotron">
-            Google Maps here
-        </div>
-    
+    <section>
+        <div id="map" class="box-shadow"></div>
+    </section>
     <section>
         <div class="container">
-        Top 3 Picks
+            <div class="row">
+                <div class="col-sm-3">
+                Pick 1
+                </div>
+                <div class="col-sm-3">
+                Pick 2
+                </div>
+                <div class="col-sm-3">
+                Pick 3
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="jumbotron justify-content-center">
+        <div class="jumbotron jumbotron-contact-form justify-content-center">
         <div class="container contact-form-container">
         <div class="row bg-color-contact">
             <div class="col">
@@ -142,5 +159,7 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
     <script src="assets/js/sendEmail.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgGuJRex-TwG9kL4VTaR_IbA-m9M3lx5o&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="assets/js/coruna_map.js"></script>
   </body>
 </html>
