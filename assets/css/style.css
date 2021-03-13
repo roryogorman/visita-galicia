@@ -53,7 +53,7 @@ body{
 
 /*---------Home Page Styling---------*/
 .intro-message-container {
-    height: 103vh;
+    height: 106vh;
     background: url(../images/galicia_hero_image.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,8 +78,8 @@ body{
     border-radius: 3%;
     text-align: center;
     padding: 1rem;
-    width: 58%;
-    height: 77%;
+    width: 71%;
+    height: 95%;
     font-size: 115%;
     bottom: 100px;
     overflow: hidden;
@@ -105,8 +105,7 @@ body{
 }
 
 .province-card {
-    /*width: 10rem;*/
-    height: 60vh;
+    height: 45vh;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
     object-fit: cover;
@@ -126,12 +125,35 @@ body{
     font-weight: 700;
 }
 
-.card-text {
+.card-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.destination-description {
     margin-bottom: .75rem;
-    text-align: center;
+    text-align: left;
     color: #005ac1;
-    font-size: 100%;
-    font-weight: 400;
+    font-size: 90%;
+    font-weight: 300;
+    padding: 0.7rem;
+}
+
+/* Code to fix center bug was found at https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element */
+.destination-button {
+    bottom: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 40px;
+    width: 147px;
 }
 
 .btn-primary {
@@ -140,10 +162,10 @@ body{
     color: #cdcdcd;
 }
 
-.jumbotron {
+.jumbotron-contact-form {
     padding: 2rem 1rem;
     margin-bottom: 0;
-    background-color: #e9ecef;
+    background-color: #c8cbe8;
     border-radius: .3rem;
 }
 
@@ -163,6 +185,48 @@ body{
 
 .contact-button {
     margin: 1rem;
+}
+
+/*---------Destination Pages Styling---------*/
+
+.province_map_img {
+    position: relative;
+    margin-bottom: 0.75rem;
+}
+
+.destination-page-header {
+    margin-bottom: 1rem;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+    color: #005ac1;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.destination-page-info {
+    background-color: #D90921;
+    color: #BEAD04;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 111%;
+    font-weight: 400;
+    min-height: 50px;
+}
+
+.destination-description {
+    clear: left;
+    position: relative;
+    margin-bottom: .75rem;
+    text-align: left;
+    color: #005ac1;
+    font-size: 90%;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
 }
 
 /*---------Footer Styling---------*/
@@ -223,11 +287,11 @@ color: #ffffff;
 
 /*---------Media Styling---------*/
 
-/* Small devices (portrait tablets and large phones) */
+/* Small devices (portrait tablets and large phones)
 @media only screen and (min-width: 590px) {
     
 
-}
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
