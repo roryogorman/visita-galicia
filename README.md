@@ -38,18 +38,20 @@ The website is designed to be accessed and viewed on all smart devices, laptops 
 ### Design 
 #### Colour Scheme
 - To reflect the subject matter & aims of the site, I will be using bold & vibrant colours throughout the site. I feel that using these shades adds to the attractiveness of the site and is very appropriate.
-- The colour scheme used is based on the Galician regional flag - a rich blue sash on a white background. These colours ae traditional to the region and can be seen everywhere, from football clubs kits to traditional pottery.
-- the colours used are:
+- The colour scheme used is based on the Galician regional flag - a rich blue sash on a white background, with a crest which contains a Red & Gold shade. These colours ae traditional to the region and can be seen everywhere, from football clubs kits to traditional pottery.
+- The colours used are:
     - a. #FFFFFF: A brilliant white.
     - b. #009ACD: Rich Electric Blue. 
     - c. #005AC1: Sapphire
     - d. #CDCDCD: Chinese Silver
+    - e. #D90921: Lava
+    - f. #BEAD04: Chinese Gold
 
 #### Typography
 - Two fonts were used primarily for this site - Roboto & Roboto Slab. These are two fonts that are commonly used in tourism websites and are both clean, clear & very readable and so I feel are appropriate for this site
 - From researching other leading tourism websites for the region e.g. tourism.gal & galiciaguide.com, these sites use typography such as these throughout which makes their sites look very attractive.
 - I had planned on using Celtic script typography (as Galicia is a Celtic region and this script can be seen throughout the region), however I was unable to import this font in.
-- Throughout, titles were entered using Roboto Slab, with themain script in Roboto.
+- Throughout, titles were entered using Roboto Slab, with the main script in Roboto.
 
 
 #### Imagery
@@ -63,6 +65,25 @@ Wireframes were created using Balsamiq.
 ## Features
 
 ### Structure of Website
+The website consists of two interlinked pages, outlined below:
+#### 1. The Home Page
+This page is divided into 4 parts:
+#### The Navigation Bar:
+- The Navigation Bar ('Nav') sits atop this page. Contained in this bar, from left-to-right, are:
+    - a. The site's logo
+    - b. Links to the other pages in the site i.e. Gallery and Shop. Clicking on these links will bring you directly to the page, but in the same browser.
+#### Hero Image Section:
+- The Headline Section contains a Hero Image which will be a stock image of Galician scenery - in this case, the famous Torre de Hercules in A Coruna, which is one of the most famous and most-visited sites in the region.
+#### Welcome Message Section:
+- This section has a brief introduction to the site and its objectives.
+#### Province Section:
+- This section contains four areas, representing the 4 provences of Galicia - namely A Coruna, Pontevedra, Lugo & Ourense. A stock image of landscape representing the region & a navigational button in each will take you to that relevant section
+#### Contact Form:
+- The Contact Form invites the user to submit to the site owners any questions that they may have on the region.
+#### The Footer Section:
+- This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
+    - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
+    - b. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
 
 
 ***
@@ -91,7 +112,7 @@ Wireframes were created using Balsamiq.
 * [Balsamiq](https://balsamiq.com/)
     - Wireframes for the site were created on Balsamiq.
 * [Unsplash](https://unsplash.com/)
-    - Background 'Hero' Images on the Home & Shop pages of the site were sourced from this website.
+    - All images used on the site came from this source.
 * [Coolors](https://coolors.co/)
     - This site was used to source the colour palette throughout the website.
 * Chrome Developer Tools 
@@ -104,6 +125,10 @@ Wireframes were created using Balsamiq.
     - This site was used to validate the HTML code.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
     - this site was used to validate the CSS code.
+* [EmailJs](https://www.emailjs.com/)
+    - This site was used for the JS query to ensure that the contact form method would send an automated email to the site owners address.
+* [Google Maps Developers Site](https://developers.google.com/maps)
+     - The API for Google Maps and subsequent support came from this source.
 
 ***
 
