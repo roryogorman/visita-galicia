@@ -88,7 +88,7 @@ body{
 .province-section {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 275vh;
+    height: 285vh;
 }
 
 .province-section-title {
@@ -97,6 +97,7 @@ body{
     color: #005ac1;
     font-size: 150%;
     font-weight: 700;
+    text-align: center;
 }
 
 .province-containers {
@@ -105,7 +106,7 @@ body{
 }
 
 .province-card {
-    height: 45vh;
+    height: 64vh;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
     object-fit: cover;
@@ -114,6 +115,12 @@ body{
     text-align: bottom;
     display: flex;
     justify-content: space-evenly;
+    border: solid 3px #009acd;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 68%;
 }
 
 .card-title {
@@ -123,14 +130,6 @@ body{
     color: #005ac1;
     font-size: 150%;
     font-weight: 700;
-}
-
-.card-img {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    object-fit: cover;
-    opacity: 0.9;
 }
 
 .destination-description {
@@ -152,14 +151,18 @@ body{
     left: 0;
     right: 0;
     text-align: center;
-    height: 40px;
-    width: 147px;
+    height: 41px;
+    width: 157px;
 }
 
 .btn-primary {
-    border-radius: 25%;
+    border-radius: 38%;
     background-color: #005ac1;
     color: #cdcdcd;
+}
+
+.jumbotron {
+    margin-bottom: 0;
 }
 
 .jumbotron-contact-form {
@@ -170,7 +173,6 @@ body{
 }
 
 .contact-form-container {
-    margin: 0;
     border: blue;
 }
 
@@ -230,6 +232,7 @@ body{
 }
 
 /*---------Footer Styling---------*/
+
 footer {
     background-color: #009acd;
     color: #ffffff;
@@ -288,19 +291,114 @@ color: #ffffff;
 /*---------Media Styling---------*/
 
 /* Small devices (portrait tablets and large phones)
-@media only screen and (min-width: 590px) {
+@media only screen and (min-width: 568px) {
     
 
 } */
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+/* Medium devices (landscape tablets, 767px and up) */
+@media only screen and (min-width: 767px) {
+    .intro-message-container {
+    height: 60vh;
+}
+
+    .welcome-message-container {
+    width: 71%;
+    height: 79%;
+}
+
+    .province-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 145vh;
+}
+
+    .card-img-top {
+    width: 100%;
+    height: 75%;
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
-    
+    .intro-message-container {
+    height: 54vh;
+}
+
+    .welcome-message-container {
+    width: 55%;
+    height: 75%;
+}
+
+    .province-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 145vh;
+}
+
+    .card-img-top {
+    width: 100%;
+    height: 85%;
+}
+
+}
+
+/* Larger Laptop devices (laptops/desktops, 1023px and up) */
+@media only screen and (min-width: 1023px) { 
+    .intro-message-container {
+    height: 71vh;
+
+}
+
+    .welcome-message-container {
+    width: 54%;
+    height: 63%;
+    align-items: center;
+    justify-content: center;
+}
+
+    .province-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 145vh;
+}
+
+   .card-img-top {
+    width: 100%;
+    height: 85%;
+}
 
 } 
+
+/* Larger laptop & Desktop devices (laptops/desktops, 1037px and up) */
+@media only screen and (min-width: 1037px) {
+.intro-message-container {
+    height: 90vh;
+
+}
+
+    .welcome-message-container {
+    width: 54%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+}
+
+    .province-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 145vh;
+}
+
+   .card-img-top {
+    width: 100%;
+    height: 74%;
+}
+
+} 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
