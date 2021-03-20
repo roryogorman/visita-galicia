@@ -191,6 +191,24 @@ body{
 
 /*---------Destination Pages Styling---------*/
 
+/*--------To hide provinces not chosen---------*/
+
+#coruna {
+    display: block;
+}
+
+#pontevedra {
+    display: none;
+}
+
+#lugo {
+    display: none;
+}
+
+#ourense {
+    display: none;
+}
+
 .province_map_img {
     position: relative;
     margin-bottom: 0.75rem;
@@ -203,11 +221,12 @@ body{
     color: #005ac1;
     font-size: 150%;
     font-weight: 700;
+    margin-top: 8rem;
 }
 
 .destination-page-info {
     background-color: #D90921;
-    color: #BEAD04;
+    color: #ffffff;
     height: 100%;
     font-family: "Roboto", sans-serif;
     font-size: 111%;
@@ -216,6 +235,8 @@ body{
 }
 
 .destination-description {
+    display: flex;
+    justify-content: center;
     clear: left;
     position: relative;
     margin-bottom: .75rem;
@@ -228,8 +249,10 @@ body{
 
 #map {
     width: 100%;
-    height: 500px;
+    height: 800px;
 }
+
+
 
 /*---------Footer Styling---------*/
 
