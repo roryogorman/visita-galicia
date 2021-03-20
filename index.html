@@ -65,7 +65,7 @@
     <div class="container">
         <div class="row no-gutters justify-content-center">
             <div class="col-sm-2 province-section-title">
-            <h2><strong>Provinces</strong></h2>
+            <h2><strong>Visit the Provinces</strong></h2>
             </div>
         </div>
         <div class="row no-gutters justify-content-center province-containers">
@@ -73,15 +73,14 @@
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Coruna" src="./assets/images/coruna_city_2.jpeg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">A Coruña</h5>
-                <a href="map_page.html" class="btn btn-primary destination-button" id="coruna-map-section">Find Out More</a>
+                <a href="#coruna" class="btn btn-primary destination-button">Find Out More</a>
                 </div>
             </div>
             <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Pontevedra"  src="./assets/images/pontevedra_image2.jpg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">Pontevedra</h5>
-                <!--<p class="card-text">Galicia's southwest province - click here to see more of spectacular beaches, rugged coastline and the fun city of Vigo!</p>-->
-                <a href="map_page.html" class="btn btn-primary destination-button" id="pontevedra-map-section">Find Out More</a>
+                <a href="#pontevedra" class="btn btn-primary destination-button">Find Out More</a>
                 </div>
             </div>
         </div>
@@ -90,8 +89,7 @@
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Lugo" src="./assets/images/lugo_image.jpeg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">Lugo</h5>
-                <!--<p class="card-text">The historical city of Lugo, rolling rural landscapes making way to the rugged northern coast - Lugo will have everything you want!</p>-->
-                <a href="map_page.html" class="btn btn-primary destination-button" id="lugo-map-section">Find Out More</a>
+                <a href="#lugo" class="btn btn-primary destination-button" id="lugo-map-section">Find Out More</a>
                 </div>
             </div>
                 <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
@@ -99,11 +97,98 @@
                 <div class="card-body">
                 <h5 class="card-title">Ourense</h5>
                 <!--<p class="card-text">Galicia's only landlocked province, but what it lacks in coastline, it makes up for in adventure! Come here to see life in rural Galicia!</p>-->
-                <a href="map_page.html" class="btn btn-primary destination-button" id="ourense-map-section">Find Out More</a>
+                <a href="#ourense" class="btn btn-primary destination-button" id="ourense-map-section">Find Out More</a>
                 </div>
             </div>
         </div>
     </div>
+    </section>
+
+    <!--To headline each of the provinces-->
+    <section>
+        <div class="container-fluid" id="coruna">
+        <h1 class="destination-page-header">A Coruña</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/a_coruna_map.jpeg" class="province_map_img" alt="Coruna">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">Whether you wish to visit the windswept wildness of the Atlantic coast, walking in the footsteps of others on the Camino de Santiago, or wish to hang out in the bustling city of A Coruña, this province has it all for you!</p>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container-fluid" id="pontevedra">
+        <h1 class="destination-page-header">Pontevedra</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/pontevedra_map.jpeg" class="province_map_img" alt="Pontevedra">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">Galicia's southwest province - click here to see more of spectacular beaches, rugged coastline and the fun city of Vigo!</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-fluid" id="lugo">
+        <h1 class="destination-page-header">Lugo</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/lugo_map.jpeg" class="province_map_img" alt="Lugo">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">The historical city of Lugo, rolling rural landscapes making way to the rugged northern coast - Lugo will have everything you want!</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="container-fluid" id="ourense">
+        <h1 class="destination-page-header">Ourense</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/ourense_map.jpeg" class="province_map_img" alt="Ourense">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">Galicia's only landlocked province, but what it lacks in coastline, it makes up for in adventure! Come here to see life in rural Galicia!</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Map-->
+    <section>
+        <div id="map" class="box-shadow"></div>
+    </section>
+
+    <!--A Coruna Top Picks-->
+    <section>
+        <div class="container">
+            <div class="row no-gutters justify-content-center">
+            <div class="col-sm-10 province-section-title">
+            <h2><strong>Our Top 3 Picks!</strong></h2>
+            </div>
+        </div>
+            <div class="row no-gutters justify-content-center">
+                <div class="card col-md-4 col-sm-10">
+                    <div class="card-body">
+                    <h5 class="card-title">Finisterre & The Death Coast</h5>
+                    <p>Description Text</p>
+                </div>
+                </div>
+                <div class="card col-md-4 col-sm-10">
+                <div class="card-body">
+                    <h5 class="card-title">A Coruna</h5>
+                    <p>Description Text</p>
+                </div>
+                </div>
+                <div class="card col-md-4 col-sm-10">
+                <div class="card-body">
+                    <h5 class="card-title">Cathedral of Santiago de Compostela</h5>
+                    <p>Description Text</p>
+                </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
