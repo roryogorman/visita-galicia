@@ -73,18 +73,14 @@
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Coruna" src="./assets/images/coruna_city_2.jpeg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">A Coruña</h5>
-                <button>
-                <a href="#coruna" onclick="myToggleFunction()" class="btn btn-primary destination-button" id="#coruna_information">Find Out More</a>
-                </button>
+                <a href="#coruna" class="btn btn-primary destination-button" id="#coruna_information">Find Out More</a>
                 </div>
             </div>
             <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Pontevedra"  src="./assets/images/pontevedra_image2.jpg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">Pontevedra</h5>
-                <button>
-                <a href="#pontevedra" onclick="myToggleFunction()" class="btn btn-primary destination-button" id="#pontevedra_information">Find Out More</a>
-                </button>
+                <a href="#pontevedra" class="btn btn-primary destination-button" id="#pontevedra_information">Find Out More</a>
                 </div>
                 </div>
             </div>
@@ -93,26 +89,28 @@
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Lugo" src="./assets/images/lugo_image.jpeg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">Lugo</h5>
-                <button>
-                <a href="#lugo" onclick="myToggleFunction()" class="btn btn-primary destination-button" id="lugo-information">Find Out More</a>
-                </button>
+                <a href="#lugo" class="btn btn-primary destination-button" id="lugo-information">Find Out More</a>
                 </div>
             </div>
                 <div class="card col-md-5 col-sm-10 province-card" style="width: 25rem;">
                 <img class="card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Ourense" src="./assets/images/Ourense_Image.jpg" data-holder-rendered="true">
                 <div class="card-body">
                 <h5 class="card-title">Ourense</h5>
-                <button>
                 <a href="#ourense" class="btn btn-primary destination-button" id="ourense-information">Find Out More</a>
-                </button>
                 </div>
             </div>
         </div>
     </div>
     </section>
 
-    <!--To headline each of the provinces-->
+    <!--Map-->
     <section>
+        <div id="map" class="box-shadow"></div>
+    </section>
+
+    <!--Province Information-->
+    <section>
+        <div class="container-fluid destination-container">
         <div class="container-fluid" id="coruna">
         <h1 class="destination-page-header">A Coruña</h1>
         <div class="row col-12">
@@ -126,59 +124,7 @@
             </div>
         </div>
         </div>
-        <div class="container-fluid" id="pontevedra">
-        <h1 class="destination-page-header">Pontevedra</h1>
-        <div class="row col-12">
-            <div class="col-sm-3">
-            <img src="./assets/images/pontevedra_map.jpeg" class="province_map_img" alt="Pontevedra">
-            </div>   
-            <div class="col-sm-9">
-            <p class="destination-description">
-                Pontevedra occupies the south-western section of Galicia – bordered by the other 3 provinces to the north & east, the wild expanse of the Atlantic to the west & Portugal to the south. Due to its location, it enjoys its own microclimate – similar to Canarian weather – and this influences life in this area. The bustling port of Vigo is the main urban centre, but other settlements such as Pontvedra & Tui offers so much for tourism – historic monuments, stunning plazas and many of Galicia’s top eateries. The Atlantic coastline boasts some of Galicia’s finest beaches and offshore islands, indeed the beaches of San Xenxo & the Cies Islands are the envy of many parts of Spain. Seafood from this region is world famous, and Pontevedra also hosts the premier vineyards of the Galicia. Many festivals are held in the towns throughout the year, so no matter where you go, you will always find a hive of activity!
-            </p>
-            </div>
-        </div>
-        </div>
-
-        <div class="container-fluid" id="lugo">
-        <h1 class="destination-page-header">Lugo</h1>
-        <div class="row col-12">
-            <div class="col-sm-3">
-            <img src="./assets/images/lugo_map.jpeg" class="province_map_img" alt="Lugo">
-            </div>   
-            <div class="col-sm-9">
-            <p class="destination-description">
-                The district of Lugo is Galicia's largest and most northern province – bordering the beautiful community of Asturias to the east and with approx. 100km coastline to the north. The ancient walled city of Lugo – a UNESCO site – is a must-see, but the other settlements of Sarria & Monforte ae not to be missed. The ‘hilliest’ of the provinces, Lugo is a hikers dream, with many trails criss-crossing the region. Although having a relatively short coastline, the rock formations of As Cateidras attract large number of domestic & foreign tourists year-round.
-            </p>
-            </div>
-        </div>
-        </div>
-
-        <div class="container-fluid" id="ourense">
-        <h1 class="destination-page-header">Ourense</h1>
-        <div class="row col-12">
-            <div class="col-sm-3">
-            <img src="./assets/images/ourense_map.jpeg" class="province_map_img" alt="Ourense">
-            </div>   
-            <div class="col-sm-9">
-            <p class="destination-description">
-                Ourense is Galicia’s only inland province and until recently, the least-visited province. However this in turn means that a visit here is to see Galicia at its rawest! Its main settlement – Ourense – has a smaller population than Vigo, but in common with other towns of the province, is still relatively untouched by large scale tourism, Nature is at its finest here – from the stunning gorges of Los Balcones de Madrid, to the secret ski-slopes of Manzaneda (yes, ski-slopes!). Some of Galicia’s finest examples of historic monuments, churches and monuments are here, with some of the finest architecture in all of Spain. And, don’t forget to sample the famous ‘chupitos’ (liquers) of the region!
-            </p>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!--Map-->
-    <section>
-        <div id="map" class="box-shadow"></div>
-    </section>
-
-    <section>
-        <!--A Coruna Top Picks-->
-        <div class="container-fluid activities-container">
-            <div id="coruna-top-picks">
-            <div class="row no-gutters justify-content-center">
+        <div class="row no-gutters justify-content-center">
             <div class="col-sm-10 activities-section-title">
             <h2><strong>Our Top 3 Picks!</strong></h2>
             </div>
@@ -188,7 +134,7 @@
                     <img class="activities-card-img-top flex-auto d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Finisterre" src="./assets/images/costa_del_morte.jpg" data-holder-rendered="true">
                     <div class="card-body">
                     <h5 class="activities-card-title">The Death Coast</h5>
-                    <p class="top-activities-description">Hundreds of kilometers of wild Atlantic coast stretching west from A Coruna. On this coast, we find deserted beaches, coves and cliffs. Its capes, such as those of Touriñán, Vilán & Finisterre jut out into a wild ocean of constantly choppy waters. Spectacular Cape Finisterre - so called as the Romans believed it to be the edge of the world - is also the finish for many people's Camino de Santiago journey. Feel the natural energy of the spot and you will feel invigorated!</p>
+                    <p class="top-activities-description">Hundreds of kilometers of wild Atlantic coast stretching west from A Coruna. Here we find deserted beaches, coves and cliffs. Its capes, such as those of Touriñán, Vilán & Finisterre jut out into a wild choppy ocean. Spectacular Cape Finisterre - so called as the Romans believed it to be the edge of the world - is also the finish for many people's Camino de Santiago journey. Feel the natural energy of the spot and you will feel invigorated!</p>
                     </div>
                     </div>
                     <div class="card col-12 col-sm-3 activities-province-card">
@@ -206,11 +152,22 @@
                     </div>
                 </div>
             </div>
-            </div>
+        
 
-            <!--Pontevedra Top Picks-->
-            <div id="pontevedra-top-picks">
-            <div class="row no-gutters justify-content-center">
+        <div class="container-fluid" id="pontevedra">
+        <h1 class="destination-page-header">Pontevedra</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/pontevedra_map.jpeg" class="province_map_img" alt="Pontevedra">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">
+                Pontevedra occupies the south-western section of Galicia – bordered by the other 3 provinces to the north & east, the wild expanse of the Atlantic to the west & Portugal to the south. Due to its location, it enjoys its own microclimate – similar to Canarian weather – and this influences life in this area. The bustling port of Vigo is the main urban centre, but other settlements such as Pontvedra & Tui offers so much for tourism – historic monuments, stunning plazas and many of Galicia’s top eateries. The Atlantic coastline boasts some of Galicia’s finest beaches and offshore islands, indeed the beaches of San Xenxo & the Cies Islands are the envy of many parts of Spain. Seafood from this region is world famous, and Pontevedra also hosts the premier vineyards of the Galicia. Many festivals are held in the towns throughout the year, so no matter where you go, you will always find a hive of activity!
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="row no-gutters justify-content-center">
             <div class="col-sm-10 activities-section-title">
             <h2><strong>Our Top 3 Picks!</strong></h2>
             </div>
@@ -243,11 +200,21 @@
                     </div>
                 </div>
             </div>
-            </div>
 
-            <!--Lugo Top Picks-->
-            <div id="lugo-top-picks">
-            <div class="row no-gutters justify-content-center">
+        <div class="container-fluid" id="lugo">
+        <h1 class="destination-page-header">Lugo</h1>
+        <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/lugo_map.jpeg" class="province_map_img" alt="Lugo">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">
+                The district of Lugo is Galicia's largest and most northern province – bordering the beautiful community of Asturias to the east and with approx. 100km coastline to the north. The ancient walled city of Lugo – a UNESCO site – is a must-see, but the other settlements of Sarria & Monforte ae not to be missed. The ‘hilliest’ of the provinces, Lugo is a hikers dream, with many trails criss-crossing the region. Although having a relatively short coastline, the rock formations of As Cateidras attract large number of domestic & foreign tourists year-round.
+            </p>
+            </div>
+        </div>
+        </div>
+        <div class="row no-gutters justify-content-center">
             <div class="col-sm-10 activities-section-title">
             <h2><strong>Our Top 3 Picks!</strong></h2>
             </div>
@@ -281,10 +248,20 @@
                     </div>
                 </div>
             </div>
-            </div>
 
-            <!--Ourense Top Picks-->
-            <div id="ourense-top-picks">
+            <div class="container-fluid" id="ourense">
+            <h1 class="destination-page-header">Ourense</h1>
+            <div class="row col-12">
+            <div class="col-sm-3">
+            <img src="./assets/images/ourense_map.jpeg" class="province_map_img" alt="Ourense">
+            </div>   
+            <div class="col-sm-9">
+            <p class="destination-description">
+                Ourense is Galicia’s only inland province and until recently, the least-visited province. However this in turn means that a visit here is to see Galicia at its rawest! Its main settlement – Ourense – has a smaller population than Vigo, but in common with other towns of the province, is still relatively untouched by large scale tourism, Nature is at its finest here – from the stunning gorges of Los Balcones de Madrid, to the secret ski-slopes of Manzaneda (yes, ski-slopes!). Some of Galicia’s finest examples of historic monuments, churches and monuments are here, with some of the finest architecture in all of Spain. And, don’t forget to sample the famous ‘chupitos’ (liquers) of the region!
+            </p>
+            </div>
+        </div>
+        </div>
             <div class="row no-gutters justify-content-center">
             <div class="col-sm-10 activities-section-title">
             <h2><strong>Our Top 3 Picks!</strong></h2>
@@ -319,11 +296,12 @@
                     </div>
                 </div>
             </div>
-            </div>
-
         </div>
     </section>
 
+    
+
+    <!--Contact Form-->
     <section id="contact">
         <div class="jumbotron justify-content-center">
         <div class="container contact-form-container">
