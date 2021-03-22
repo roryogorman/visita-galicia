@@ -1,4 +1,4 @@
-/* This code was taken from the 'How to Google Maps.pdf' fil created & shared on Slack by Eamonn Smyth */
+/* This code was taken from the 'How to Google Maps.pdf' presentation created & shared on Slack by Eamonn Smyth */
 
 var map;
 var service;
