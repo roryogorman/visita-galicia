@@ -8,6 +8,8 @@ The website will showcase each of the 4 provincs that make up Galicia and will g
 
 The website is designed to be accessed and viewed on all smart devices, laptops & PCs.
 
+The live site is located [here](https://roryogorman.github.io/visita-galicia/).
+
 ***
 
 ## User Experience
@@ -44,8 +46,6 @@ The website is designed to be accessed and viewed on all smart devices, laptops 
     - b. #009ACD: Rich Electric Blue. 
     - c. #005AC1: Sapphire
     - d. #CDCDCD: Chinese Silver
-    - e. #D90921: Lava
-    - f. #BEAD04: Chinese Gold
 
 #### Typography
 - Two fonts were used primarily for this site - Roboto & Roboto Slab. These are two fonts that are commonly used in tourism websites and are both clean, clear & very readable and so I feel are appropriate for this site
@@ -79,20 +79,23 @@ This page is divided into 4 parts:
 #### Visit the Province Section:
 - This section contains four divs, representing the 4 provinces of Galicia - namely A Coruna, Pontevedra, Lugo & Ourense. A stock image of landscape representing the region & a navigational button in each will take you to that relevant section
 
-#### 2. Province Section
-#### Province Description
+#### 2. Map Section
+#### Map of Galicia
+- This is a Google Maps API which has marked on it the top rated hotel, restaurants, bars and tourist attractions (based on personal knowledge & TripAdvisor).
+- It was hoped to use the Places API to automatically bring in amenities, but this will be work-in-progress.
+
+#### 3. Province Details Description
 - This section contains two parts:
     - a. A map showing the position of the province within Galicia, and
     - b. A short description of the province.
-#### Map of Galicia
-- This is a Google Maps API which has marked on it the top rated hotel, restaurants, bars and tourist attractions (based on personal knowledge & TripAdvisor).
-- It was hoped to use the Places API to automatically bring in ameniies, but this will be work-in-progress.
-#### Top 3 Picks List
-- This is 3 divs showing our pick of the top 3 activites in each province, with a stock image of the attraction. Depending on what provinc was chosen, the relevant informtion appears here.
 
-#### 3. Contact Form:
+#### Top 3 Picks List
+- This is 3 divs showing our pick of the top 3 activites in each province, with a stock image of the attraction. A future development in this would be a JS code which would only display the top 3 activiites of the chosen destination, however this has not been implemented in this release.
+
+#### 4. Contact Form:
 - The Contact Form invites the user to submit to the site owners any questions that they may have on the region.
-#### 4. The Footer Section:
+
+#### 5. The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
     - b. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
@@ -137,6 +140,8 @@ This page is divided into 4 parts:
     - This site was used to validate the HTML code.
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
     - this site was used to validate the CSS code.
+* [JS Validator](https://codebeautify.org/jsvalidate)
+    - this site was used to validate the CSS code.
 * [EmailJs](https://www.emailjs.com/)
     - This site was used for the JS query to ensure that the contact form method would send an automated email to the site owners address.
 * [Google Maps Developers Site](https://developers.google.com/maps)
@@ -158,11 +163,11 @@ This page is divided into 4 parts:
             * On small devices the 'Home', 'Visit Provinces' & 'Contact' links are collapsed into a 'hamburger' menu, for real estate purposes. Test Successful.
 
 #### Welcome Section:
-    - One 'section' centred on the screen giving an introduction to the site.
+    - One 'section' centred on the screen giving an introduction to the site. Test Successful.
 
 #### Visit The Provinces Section:
     - Four divs, placed in a 2 x 2 layout. Each div contains a stock image, the name of the Province and a navigational button. Test Successful.
-    - Clicking 'Find Out More' button will bring you to the Province Description section, with only the information for that Province displayed.SDSDDSFSDGDSGFGDFGDFGDF
+    - Clicking 'Find Out More' button will bring you to the Province Description section. Test Successful.
     - Mobile Devices: On small mobile devices, the sections are laid out underneath each other i.e. 1 column of 4 rows. Test Successful.
 
 #### Map Section
@@ -171,7 +176,8 @@ This page is divided into 4 parts:
      - Clicking on the marker gives a pop-up window giving the name, type of amenity & a link to a Trip Advisor Galicia page.
      - Depending on the device used, the zoom on th map is defaulted to a 'best-fit' factor. Test Successful.
 
-#### Top 3 activities
+#### Provinces Information
+     - A map of the province within Galicia & a description of the province. Test Successful.
      - 3 divs aligned beside each other. Test Successful.
      - The divs contain a stock image of the activity & a description of the activity. Test Successful.
      - Mobile Devices: On small mobile devices, the acivities are stacked on each other i.e. 1 column of 3 rows.
@@ -184,21 +190,69 @@ This page is divided into 4 parts:
             * Clicking on Instagram icon should bring the user to the Instagram page of the business, opened in a new tab (for the purposes of MS1, it brings the user to Instagram's Home Page). Test Successful.
 
 ### Testing of User Stories:
+#### First Time Users
+* A primary goal of first time users is to be easily able to access the site.
+    - Clicking on the weblink will allow the user to access the site.
+* The first time user should clearly be able to understand the site & its aims.
+    - The 'Bos Dia/Welcome to...' section on the Landing Page gives an overview of the site and its objectives.
+* As the first time user is interested in travelling to Galicia, the user should be easily able to navigate the site, understand the layout of the site and where to find the desired content.
+    - The Navbar at the top of each screen is an easily navigable method for the site, and each link will take the user to the desired section. 
+    - Also, clicking on the 'Find Out More' Buttons for each destination brings the user to that section, displaying furher information.
+
+#### Returning Users
+* Returning Users may wish to examine the site more closely, understand how to contact & interact with the site owners.
+    - Links to the various Social Media platforms are clearly given at the foot of the page.
+* They may be interested in getting further information on sites & activities in Galicia that they may not have seen previously.
+     - Users are encouraged to contact the site owners through the Contact Form with any requests that the user amy have.
+* They may wish to have increased interaction with the site owners either through the site or through social media links.
+     - Social Media links to Facebook, Twitter & Instagram are given at the foot of the page and users can also use the simole contact form on the site.
+
+#### Frequent Users
+* Frequent Users may be interested in updates on sites and attractions of the province.
+    - Users can see on the Google Maps feature all sites & amenities that have been recommended by the site users. 
+* Frequent Users may be interested in seeing any changes and improvements to the site. 
+    - Users can also suggst updates or changes to the site through the contact form or Social Media links - th sie will in future contain a log of all changes that have been made by user suggestions.
+* Frequent Users may wish to give reviews & feedback to the Owners on the functionality of the site.
+    - Users are encouraged to give feedback via the contact form or via social media links.
+
+#### Site Owner
+* The site owner wishes to use the site to give a web presence to their business.
+    - Accessing the site gives the Owner a presence on the web.
+* The site owner wishes to have an easy-to-follow site that can be updated regularly with information on sites, accomodation, attractions, etc, as well as any new layouts, etc.
+    - The owners can use the Google Maps API to visualise amenities, as well as updating the map with new attractions. A description of each of the top 3 sites per province is also provided.
+* The site owner also would like to have a seamless way of communication from users via an online contact form as well as visible links to their various social media platforms. 
+    - As well as Social Media links, th online Contact Form sends an automated email to the inbox of the Owners email address.
+
 
 #### HTML Validator
+* Passing my HTML code through the Validator resulted in small errors in my coding for the javascript scripts, bu does not affect the running of the code.
+* An error at the coding for the Google Maps API also was returned, but this is a minor issue that does not affect the validity of the code.
 
 #### CSS Validator
+* Passing the CSS code through resulted in four errors - all regarding the use of the 'text-align: bottom' property, as 'bottom' isnt a valid value. This was removed, test was reran and no errors were found.
+
+#### JS Validator
+* Passing the JS code through returned no errors.
 
 ***
 
 ## Bugs
-- Compressed Menu not appearing
-- Stock images on cards not fitting correctly
-- 'Find Out More' button not navigating to the correct section
-- 'Find Out More' button not hiding details of the other provinces
-- Google Maps not displaying Places API
-- Aligning the stock images in the Top 3 Picks section.
-- White Space appearing above footer bar.
+*   Bug:Compressed Menu not appearing
+    Fix: Adding the 3 JS script tags at lines 359-367 resolved this issue.
+*   Bug: Stock images on cards not fitting correctly
+    Fix: Using the tips provided at https://getbootstrap.com/docs/4.0/examples/blog/#, this showd me the style element needed in the HTML file & the CSS needed to size the image correctly to fit into the cards.
+*   Bug:'Find Out More' button not navigating to the correct section
+    Fix: This was resolved by correctly adding the ID tag so that the element is correctly called.
+*   Bug:'Find Out More' button not hiding details of the other provinces
+    Fix: This is still outstanding and not resolved in time for this deadline. A JS query is needed, however after rying codes suggested by w3schools, and also consulting with CI Tutor Support, I was unable to resolve this.
+         Instead, I realigned the HTML file to display all of the information of all provinces, and to group them in a meaningful manner.
+*   Bug: Google Maps not displaying Places API
+    Fix: This is still outstanding - the Places API could not be called correctly. 
+         In order to meet the deadline for this project, I made the decision to list the top hotels, restaraunts & attractions for each province and manually add the markers to the map.
+*   Bug: Aligning the stock images in the Top 3 Picks section.
+    Fix: At first, the height of the stock images in these divs were uneven. Adjusting the height of the image to c.40% aligned the images correctly.
+*   Bug: White Space appearing above footer bar.
+    Fix: This occurred because the 'Container-Fluid' class on the footer has a default top margin of 16px. Zeroing this removed the space.
 
 ***
 
@@ -215,8 +269,8 @@ The following steps were taken to deploy this website:
 * Scroll down again to the same section "GitHub Pages".
 * Now at the top of this section, you will see a link that says "Your site is published at [https://roryogorman.github.io/Crafts-by-Ainhoa/](https://roryogorman.github.io/Crafts-by-Ainhoa/)".
 
-The following two sections were taken from the Code Institute's "Sample README.md" template [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 
+The following two sections were taken from the Code Institute's "Sample README.md" template [here](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
 
 ### Fork the code
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
@@ -238,6 +292,9 @@ To make a local clone of the site, follow these steps:
 ***
 
 ## Credits
+- My mentor Spencer Barriball - whose knowledge, advice, experience & enthusiasm has been of invaluable help throughout this course.
+- Code Institute's Tutor Support who have taken the time to take me through the JS issues that I was having and in helping me to understand.
+- The fantastic Slack User Community who have been of such great help on numerous issues that I have come across in the creation of this site.
 
 
 ***
