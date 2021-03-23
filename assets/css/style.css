@@ -51,7 +51,7 @@ body{
 
 
 
-/*---------Home Page Styling---------*/
+/*---------Landing Page Styling---------*/
 .intro-message-container {
     height: 106vh;
     background: url(../images/galicia_hero_image.jpg);
@@ -193,7 +193,7 @@ body{
 
 
 .destination-container {
-    height: 1050vh;
+    height: 1550vh;
     margin-right: 1rem;
     width: 90%;
 }
@@ -234,6 +234,18 @@ body{
     font-size: 90%;
     font-weight: 600;
     padding: 10px;
+}
+
+.weather-conditions {
+    background-color: #D90921;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 80%;
 }
 
 #map {
@@ -330,6 +342,11 @@ color: #ffffff;
     position: relative;
 }
 
+.social-media-header {
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 90%;
+}
+
 .social-media li a i {
     width: 40px;
     height: 40px;
@@ -386,6 +403,10 @@ color: #ffffff;
     height: 75%;
 }
 
+.weather-conditions {
+    font-size: 90%;
+}
+
 #map {
     width: 100%;
     height: 800px;
@@ -393,7 +414,7 @@ color: #ffffff;
 }
 
 .destination-container {
-    height: 450vh;
+    height: 420vh;
 }
 
 .destination-description {
@@ -449,6 +470,10 @@ color: #ffffff;
     font-weight: 700;
 }
 
+.social-media-header {
+    font-size: 125%;
+}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -476,12 +501,16 @@ color: #ffffff;
 
 .province-card {
     margin-right: 1rem;
-    height: 67vh;
+    height: 71vh;
 }
 
     .card-img-top {
     width: 100%;
     height: 70%;
+}
+
+.weather-conditions {
+    font-size: 105%;
 }
 
 #map {
@@ -531,7 +560,7 @@ color: #ffffff;
     color: #005ac1;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 68%;
+    font-size: 70%;
 }
 
 .activities-card-title {
@@ -541,6 +570,10 @@ color: #ffffff;
     color: #005ac1;
     font-size: 100%;
     font-weight: 700;
+}
+
+.social-media-header {
+    font-size: 125%;
 }
 
 }
@@ -561,16 +594,16 @@ color: #ffffff;
     .province-section {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 117vh;
+    height: 126vh;
     }
     
     .province-containers {
-    height: 52vh;
+    height: 55vh;
 }
 
     .province-card {
     margin-right: 1rem;
-    height: 49vh;
+    height: 55vh;
     }
 
     .destination-container {
@@ -585,5 +618,9 @@ color: #ffffff;
     .activities-province-card {
     height: 50vh;
     }
+
+    .top-activities-description {
+    font-size: 70%;
+}
 
 }
