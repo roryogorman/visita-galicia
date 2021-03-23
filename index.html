@@ -106,6 +106,19 @@
     </div>
     </section>
 
+    <!--Current Weather-->
+    <!--API code taken from https://weatherjs.com/-->
+    <section>
+    <div class="container-fluid weather-conditions">        
+    <div class="row">
+            <div class="col-sm-12">
+                <h6><strong> Current Weather Conditions:</strong></h6>
+                <p id="current"></p>
+            </div>
+            
+        </div>
+    </div>
+    </section>
     <!--Map-->
     <section>
         <div id="map" class="box-shadow"></div>
@@ -119,7 +132,7 @@
         <div class="row col-12">
             <div class="col-sm-3">
             <img src="./assets/images/a_coruna_map.jpeg" class="province_map_img" alt="Coruna">
-            </div>   
+            </div>
             <div class="col-sm-9">
             <p class="destination-description">
                 The most popular tourist destination of Galicia, the province of A Coruna boasts a fascinating mix of mile upon mile of picturesque beaches & quaint fishing villages, and breath taking inland scenery with meadows, mountains and forests. It is certainly the province that has the most to offer the holiday maker if you want a mix of coastal and inland attractions. The two largest cities of Galicia (a Coruna & the regions capital, Santiago de Compostela) both hold great attraction for the visitor – impressive architecture, a plethora of narrow streets housing the finest restaurants, many seasonal festivals & bars and with a population eager to welcome you. Leaving these cities behind, the magnificent ‘Costa del Morte’ (‘The Coast of Death’ – called after the numerous shipwrecks on this wild stretch of Atlantic coastline) will leave you breathless. All told if you want to sample what many tour operators now call "real" or "green" Spain, the province of A Coruna is probably the best place to start.
@@ -331,9 +344,9 @@
     
     <footer class="container-fluid">     
     <div class="row justify-content-sm-center" id="footer-contact-details">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
             <!--Code for Social Media section is taken from the 'UCD Resume' project in the User Centric module of the Code Institute curriculum-->
-            <h5 class="uppercase general-sub">Our Social Media Pages:</h5>
+            <h5 class="uppercase general-sub social-media-header">Contact us via our Social Media Pages:</h5>
                 <ul class="list-inline social-media">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/">
@@ -371,5 +384,6 @@
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgGuJRex-TwG9kL4VTaR_IbA-m9M3lx5o&libraries=places&callback=initMap"></script>
     <script src="assets/js/map_page.js"></script>
     <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/weather.js"></script>
   </body>
 </html>
