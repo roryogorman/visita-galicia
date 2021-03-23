@@ -46,6 +46,7 @@ The live site is located [here](https://roryogorman.github.io/visita-galicia/).
     - b. #009ACD: Rich Electric Blue. 
     - c. #005AC1: Sapphire
     - d. #CDCDCD: Chinese Silver
+    - e. #D90921: Lava
 
 #### Typography
 - Two fonts were used primarily for this site - Roboto & Roboto Slab. These are two fonts that are commonly used in tourism websites and are both clean, clear & very readable and so I feel are appropriate for this site
@@ -58,7 +59,7 @@ The live site is located [here](https://roryogorman.github.io/visita-galicia/).
  - As this is a tourism website, stock images of the scenery & environment of Galicia was used throughout.
 
 ### Wireframes
-Wireframes were created using Balsamiq.
+The wireframe for the project was created using Balsamiq and can be seen [here](https://github.com/roryogorman/visita-galicia/blob/master/assets/images/Wireframe/Visita%20Galicia%20Home%20Page.bmpr).
 
 ***
 
@@ -79,12 +80,16 @@ This page is divided into 4 parts:
 #### Visit the Province Section:
 - This section contains four divs, representing the 4 provinces of Galicia - namely A Coruna, Pontevedra, Lugo & Ourense. A stock image of landscape representing the region & a navigational button in each will take you to that relevant section
 
-#### 2. Map Section
+#### 2. Weather Conditions Section
+- This is an API from weather.js - the aim of this being to give current weather temperature & conditions in Galicia. Santiago de Compostela - the Galician capital - was chosen to be the city form which the forecas is based, due to its central location in the region.
+- The background colour used here was Lava. This was chosen to giv it contrast to the rest of the page & also this colour is used in the crest of Galicia that appears on the regional flag.
+
+#### 3. Map Section
 #### Map of Galicia
 - This is a Google Maps API which has marked on it the top rated hotel, restaurants, bars and tourist attractions (based on personal knowledge & TripAdvisor).
 - It was hoped to use the Places API to automatically bring in amenities, but this will be work-in-progress.
 
-#### 3. Province Details Description
+#### 4. Province Details Description
 - This section contains two parts:
     - a. A map showing the position of the province within Galicia, and
     - b. A short description of the province.
@@ -92,10 +97,10 @@ This page is divided into 4 parts:
 #### Top 3 Picks List
 - This is 3 divs showing our pick of the top 3 activites in each province, with a stock image of the attraction. A future development in this would be a JS code which would only display the top 3 activiites of the chosen destination, however this has not been implemented in this release.
 
-#### 4. Contact Form:
+#### 5. Contact Form:
 - The Contact Form invites the user to submit to the site owners any questions that they may have on the region.
 
-#### 5. The Footer Section:
+#### 6. The Footer Section:
 - This bar sits at the bottom of the page. Contained in this bar, from left-to-right, are:
     - a. Contact Details - the address & contact no. of the business (for the purposes of MS1, this will be dummy values)
     - b. Social Media Links - links through to the Facebook, Instagram, Twitter & Pinterest pages for the business. For the purposes of MS1, these will be links to the home pages of these sites as the social media pages do not exist as yet.
@@ -128,6 +133,8 @@ This page is divided into 4 parts:
     - Wireframes for the site were created on Balsamiq.
 * [Unsplash](https://unsplash.com/)
     - All images used on the site came from this source.
+* [weatherjs](https://weatherjs.com/)
+    - The API from this website was used to produce the weather conditions section of the site.
 * [Coolors](https://coolors.co/)
     - This site was used to source the colour palette throughout the website.
 * Chrome Developer Tools 
@@ -169,6 +176,9 @@ This page is divided into 4 parts:
     - Four divs, placed in a 2 x 2 layout. Each div contains a stock image, the name of the Province and a navigational button. Test Successful.
     - Clicking 'Find Out More' button will bring you to the Province Description section. Test Successful.
     - Mobile Devices: On small mobile devices, the sections are laid out underneath each other i.e. 1 column of 4 rows. Test Successful.
+
+#### Weather Conditions Section
+     - This should show the current weather & conditions of Santiago de Compostela. Test Successful.
 
 #### Map Section
      - A Google Map of Galicia is shown with an animated 'drop' of markers. Test Successful.
