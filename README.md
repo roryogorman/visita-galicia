@@ -59,7 +59,7 @@ The live site is located [here](https://roryogorman.github.io/visita-galicia/).
  - As this is a tourism website, stock images of the scenery & environment of Galicia was used throughout.
 
 ### Wireframes
-The wireframe for the project was created using Balsamiq and can be seen [here](https://github.com/roryogorman/visita-galicia/blob/master/assets/images/Wireframe/Visita%20Galicia%20Home%20Page.bmpr).
+The wireframe for the project was created using Balsamiq and can be seen [here](https://github.com/roryogorman/visita-galicia/blob/master/assets/images/Wireframe/Visita_Galicia_Page.bmpr).
 
 ***
 
