@@ -370,11 +370,6 @@ color: #ffffff;
 
 /*---------Media Styling---------*/
 
-/* Small devices (portrait tablets and large phones)
-@media only screen and (min-width: 568px) {
-    
-
-} */
 
 /* Medium devices (landscape tablets, 767px and up) */
 @media only screen and (min-width: 767px) {
@@ -414,7 +409,7 @@ color: #ffffff;
 }
 
 .destination-container {
-    height: 420vh;
+    height: 550vh;
 }
 
 .destination-description {
@@ -443,7 +438,7 @@ color: #ffffff;
 }
 
 .activities-province-card {
-    height: 50vh;
+    height: 63vh;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
     object-fit: cover;
